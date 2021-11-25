@@ -27,4 +27,6 @@ promote the new business.
 - have it so that a list of nearby(to the cabin) attraction are listed.
 
 ### footer(this will be on every page)
+- Will have a contact us link.
+- will have social media icons to show their social media.
 - 
