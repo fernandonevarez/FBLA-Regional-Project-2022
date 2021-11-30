@@ -30,3 +30,6 @@ promote the new business.
 - Will have a contact us link.
 - will have social media icons to show their social media.
 - 
+
+### Other things
+- way for someone to be able to cancel the 
