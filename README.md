@@ -20,16 +20,29 @@ promote the new business.
   - the user will get a email with the location of the cabin,
   - the code to get into the cabin.
 
+- showing a calendar of all the open dates.
+- way for someone to be able to cancel their order and it opens the date for others to be able to take the date.
+
+#### contact us page
+- this will be it's own page, but will not be shown in the navbar. It will be in the footer and on the booking page for users to be able to cancel their order.
 
 
 ### nearby attraction page
 - connect to attraction api i(David) made for this.
 - have it so that a list of nearby(to the cabin) attraction are listed.
 
+- Each attraction box will have:
+  - name of attraction
+  - location of the attraction
+  - amount it will cost for one to take part in it.
+    - kid and adult cost
+  - time it will be taking place.
+
+
 ### footer(this will be on every page)
-- Will have a contact us link.
+- Will have a contact social media's link.
 - will have social media icons to show their social media.
 - 
 
 ### Other things
-- way for someone to be able to cancel the 
+- 
