@@ -40,9 +40,6 @@ promote the new business.
 
 
 ### footer(this will be on every page)
-- Will have a contact social media's link.
-- will have social media icons to show their social media.
-- 
-
-### Other things
-- 
+- Will have a contact us page link (will be used to cancel orders)
+- will have social media icons that will link to cabin's social media.
+- Links to all the other pages for the user to be able to go too.
