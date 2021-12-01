@@ -10,7 +10,7 @@ promote the new business.
 ## Todo List
 
 ### Homepage
-- about us section telling the user about the cabin and fun facts about it.
+- About us section telling the user about the cabin and fun facts about it.
 - 
 
 
@@ -43,3 +43,8 @@ promote the new business.
 - Will have a contact us page link (will be used to cancel orders)
 - will have social media icons that will link to cabin's social media.
 - Links to all the other pages for the user to be able to go too.
+
+
+### logo and favicon
+- need to edit logo so that we can have it on the navbar
+- need to create 

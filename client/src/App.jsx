@@ -1,6 +1,8 @@
 import { Switch, Route } from "react-router-dom";
-import Home from "./Pages/home";
-import './App.css';
+import Attractions from "./Pages/Attractions";
+import SingleAttraction from "./Pages/SingleAttraction";
+import Home from "./Pages/Home";
+// import './App.css';
 
 function App() {
   return (
@@ -9,10 +11,12 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        
-        <Route path="/attractions/:id">
-          
+        {/* <Route path="/attractions">
+          <Attractions />
         </Route>
+        <Route path="/attractions/:id">
+          <SingleAttraction />
+        </Route> */}
       </Switch>
     </div>
   );

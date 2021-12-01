@@ -1,6 +1,6 @@
 
 
-const NearbyAttractions = () => {
+const Attractions = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const NearbyAttractions = () => {
   )
 }
 
-export default NearbyAttractions
+export default Attractions
