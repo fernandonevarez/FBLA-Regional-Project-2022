@@ -2,7 +2,7 @@ import { Switch, Route } from "react-router-dom";
 import Attractions from "./Pages/Attractions";
 import SingleAttraction from "./Pages/SingleAttraction";
 import Home from "./Pages/Home";
-// import './App.css';
+import './Styles/main.css';
 
 function App() {
   return (

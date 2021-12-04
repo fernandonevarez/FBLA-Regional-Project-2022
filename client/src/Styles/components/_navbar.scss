@@ -1,9 +1,22 @@
-@use '../themes/defaultTheme' as *;
-@use '../util/variables' as *;
-@use '../util/mixins' as *;
-
+@use "../themes/defaultTheme" as *;
+@use "../util/variables" as *;
+@use "../util/mixins" as *;
 
 .navbar-container {
+  width: 100vw;
   display: flex;
   flex-direction: row;
+  background: tan !important;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  ul {
+    display: flex;
+    li {
+      a {
+        color: $secondary-5;
+      }
+    }
+  }
 }

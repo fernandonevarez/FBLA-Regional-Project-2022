@@ -1,12 +1,17 @@
 
 import React, { useState, useEffect } from 'react'
-
+import logo from "../assets/logo.svg"
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Navbar = () => {
+  const [showlinks, setShowLinks] = useState(false)
   return (
     <div className="navbar-container">
-      <img src="#" alt="Pine Edge Cabin Logo" />
-      <ul>
+      <img className="logo" src={logo} alt="Pine Edge Cabin Logo" />
+
+      <GiHamburgerMenu onClick={() => setShowLinks(!showlinks)}/>
+
+      {showlinks ? <ul></ul>: <ul >
         <li>
           <a href="#">Home</a>
         </li>
@@ -19,7 +24,9 @@ const Navbar = () => {
         <li>
           <a href="#">Contact Us</a>
         </li>
-      </ul>
+      </ul>}
+
+      
     </div>
   )
 }
