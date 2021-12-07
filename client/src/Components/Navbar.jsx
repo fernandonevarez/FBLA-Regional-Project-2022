@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg"
 import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Navbar = () => {
-  const [showlinks, setShowLinks] = useState(false)
+  const [showlinks, setShowLinks] = useState(true)
   return (
     <div className="navbar-container">
       <img className="logo" src={logo} alt="Pine Edge Cabin Logo" />
