@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="navbar-container">
       <img className="logo" src={logo} alt="Pine Edge Cabin Logo" />
 
-      <GiHamburgerMenu onClick={() => setShowLinks(!showlinks)}/>
+      <GiHamburgerMenu className="navbar-toggle" onClick={() => setShowLinks(!showlinks)}/>
 
       {showlinks ? <ul></ul>: <ul >
         <li>

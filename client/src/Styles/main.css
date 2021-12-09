@@ -304,6 +304,11 @@ svg {
   width: 100px;
   height: 100px;
 }
+.navbar-container .navbar-toggle {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
 .navbar-container ul {
   display: flex;
 }
