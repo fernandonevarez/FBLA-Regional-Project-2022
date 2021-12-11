@@ -1,34 +1,35 @@
-
-import React, { useState, useEffect } from 'react'
-import logo from "../assets/logo.svg"
-import {GiHamburgerMenu} from 'react-icons/gi'
+import React, { useState, useEffect } from "react";
+import logo from "../assets/logo.svg";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
-  const [showlinks, setShowLinks] = useState(false)
+  const [showlinks, setShowLinks] = useState(false);
   return (
     <div className="navbar-container">
       <img className="logo" src={logo} alt="Pine Edge Cabin Logo" />
 
-      <GiHamburgerMenu onClick={() => setShowLinks(!showlinks)}/>
+      <GiHamburgerMenu onClick={() => setShowLinks(!showlinks)} />
 
-      {showlinks ? <ul></ul>: <ul >
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Booking</a>
-        </li>
-        <li>
-          <a href="#">local Attractions</a>
-        </li>
-        <li>
-          <a href="#">Contact Us</a>
-        </li>
-      </ul>}
-
-      
+      {showlinks ? (
+        <ul></ul>
+      ) : (
+        <ul>
+          <li>
+            p<a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Booking</a>
+          </li>
+          <li>
+            <a href="#">local Attractions</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
